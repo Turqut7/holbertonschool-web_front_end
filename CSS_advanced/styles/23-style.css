@@ -12,10 +12,10 @@
     color: var(--text-color);
 }
 
-.social-link {
+a.social-link {
     display: block;
 }
 
-.social-link svg {
+a.social-link svg {
     fill: var(--text-color);
 }
