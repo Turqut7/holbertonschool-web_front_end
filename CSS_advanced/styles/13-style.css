@@ -1,15 +1,19 @@
-a[href] {
+:root {
+    --color-light-grey: #f3f3f3;
+}
+
+a:link {
     text-decoration: none;
 }
 
-a[href]:visited {
+a:visited {
     font-style: italic;
 }
 
-a[href]:hover {
+a:hover {
     text-decoration: underline;
 }
 
-a[href]:active {
-    background-color: #f3f3f3;
+a:active {
+    background-color: var(--color-light-grey);
 }
