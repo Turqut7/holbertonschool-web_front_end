@@ -42,19 +42,23 @@ body {
     line-height: var(--line-height-base);
 }
 
+/* ONLY links with href */
 a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
 
+/* visited */
 a[href]:visited {
     font-style: italic;
 }
 
+/* hover */
 a[href]:hover {
     text-decoration: underline;
 }
 
+/* active */
 a[href]:active {
     background-color: var(--color-light-grey);
 }
