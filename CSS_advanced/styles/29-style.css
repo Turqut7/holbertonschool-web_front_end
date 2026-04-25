@@ -98,6 +98,10 @@ a[href]:active {
     --nav-item-link-hover: var(--color-white);
 }
 
+.nav .nav-link {
+    position: relative;
+}
+
 .nav .nav-link::before {
     content: "";
     position: absolute;
